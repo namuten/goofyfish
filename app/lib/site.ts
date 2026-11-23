@@ -1,5 +1,5 @@
 export const SITE = {
-  name: 'Goofy Fish',
+  name: 'Scherzo',
   url: process.env.SITE_URL ?? 'https://namuten.github.io/goofyfish',
   tagline: 'Small, silly games for the browser',
   description:

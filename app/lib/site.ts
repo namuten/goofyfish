@@ -7,6 +7,8 @@ export const SITE = {
   twitter: '@nilbuild',
   github: 'https://github.com/namuten/goofyfish',
   author: { name: 'Kamran Ahmed', url: 'https://kamran.fyi' },
+  // Main hub site; goofyfish is served as its game section.
+  hub: { name: 'nyearha', url: 'https://namuten.github.io/nyearha/' },
 };
 
 // SITE.url may include a sub-path (GitHub Pages serves this repo at /goofyfish), so append rather than resolve.

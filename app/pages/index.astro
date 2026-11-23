@@ -19,6 +19,14 @@ const jsonLd = {
 <Base title={`${SITE.name} · ${SITE.tagline}`} description={SITE.description} path='/' jsonLd={jsonLd}>
   <main class='mx-auto max-w-[1120px] px-4 pt-10 pb-20 sm:px-8 sm:pt-16'>
     <h1 class='sr-only'>{SITE.name}</h1>
+    <nav class='mb-6 sm:mb-8'>
+      <a
+        href={SITE.hub.url}
+        class='inline-flex items-center gap-1.5 rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm text-neutral-600 transition hover:border-neutral-300 hover:text-neutral-900'
+      >
+        ← 메인
+      </a>
+    </nav>
     <section class='grid grid-cols-3 gap-3 sm:grid-cols-4 sm:gap-5 lg:grid-cols-5'>
       {
         games.map((game) => (

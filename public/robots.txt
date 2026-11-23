@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://goofyfish.com/sitemap.xml
+Sitemap: https://namuten.github.io/goofyfish/sitemap.xml

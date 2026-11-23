@@ -56,6 +56,15 @@ const allGames: Game[] = [
     controls: 'hold',
   },
   {
+    slug: 'claw',
+    name: 'Claw Grab',
+    tagline: 'Hold to slide the claw, let go to grab a plushie',
+    description:
+      'A claw machine full of googly-eyed plushies. Hold to slide the claw, let go to drop it, and land dead centre so your catch does not slip. Crowned plushies are worth three, a perfect grab wins a coin back, and the round ends when your ten coins run out.',
+    addedAt: '2026-11-23',
+    controls: 'hold',
+  },
+  {
     slug: 'skirmish',
     name: 'Skirmish',
     tagline: 'Drop an army, build fences, watch the brawl',
